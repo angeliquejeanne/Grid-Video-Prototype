@@ -17,14 +17,15 @@
   }
   
   .gallery {
-    color: black;
+    color: fuchsia;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: flex-start;
     margin: 1.5em auto 0px auto;
+    padding: 20px 10px;
     width: 1160px;
-    height: 1181px;
+    height: 1000px;
     background-color: rgb(84, 84, 112);
   }
   
@@ -38,7 +39,7 @@
     height: 209px;
   }
   .thumb:nth-child(n+5) {
-    margin-bottom: 83px;
+    margin-bottom: 20px;
   }
   .thumb .yt-video {
     position: absolute;
