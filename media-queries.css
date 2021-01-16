@@ -79,3 +79,12 @@
   } 
 }
 
+@media (orientation: landscape) and (min-width: 736px) {
+    .gallery {
+      color: lime;
+      margin: 20px auto 0px;
+      padding-top: 20px;
+      width: 700px;
+      height: 100%;
+  }
+}
