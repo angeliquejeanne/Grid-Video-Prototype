@@ -79,7 +79,7 @@
   } 
 }
 
-@media (min-width: 736px) {
+@media (orientation: landscape) and (min-width: 736px) {
     .gallery {
       color: lime;
       margin: 20px auto 0px;
@@ -87,4 +87,38 @@
       width: 700px;
       height: 100%;
   }
+}
+
+@media (orientation: landscape) and (min-width: 896px) {
+    .gallery {
+        color: pink;
+        margin: 20px auto 0px;
+        padding-top: 20px;
+        width: 850px;
+        height: 100%;
+    }
+    .thumb {
+      color: lightgrey;
+      opacity: 1;
+      overflow: hidden;
+      position: relative;
+      width: 400px;
+      height: 205px;
+      margin: 0px auto 108px auto;
+    }
+    .thumb .yt-video {
+        position: absolute;
+        left: 0;
+        width: 1160px;
+        height: 1181px;
+        margin-top: -88%;
+    }
+    .thumb:first-child {
+        width: 400px;
+        height: 205px;
+        margin: 0 auto 108px;
+    }  
+    .thumb:nth-child(n+5) .yt-video {
+        bottom: -129%;
+    }
 }
