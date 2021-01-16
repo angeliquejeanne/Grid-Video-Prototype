@@ -1,5 +1,5 @@
 /* 320/568px correspond l'iphone 5*/
-@media (min-width:320px) { 
+@media (min-width:320px) and (max-width:360px) { 
     .gallery {
         color:yellow;
         margin: 20px auto 0px;
@@ -34,7 +34,7 @@
 }
 
 /* 360/740px correspond Galaxy S9/S9+ Android 7.0*/
-@media (min-width:360px) {
+@media (min-width:360px) and (max-width: 374px) {
     .gallery {
         color: blue;
         margin: 20px auto 0px;
@@ -45,7 +45,7 @@
 }
 
 /* 375/667px correspond l'iphone 6/7/8*/
-@media (min-width:375px) {
+@media (min-width:375px) and (max-width: 413px) {
     .gallery {
         color: orangered;
         width: 360px;
@@ -63,7 +63,7 @@
 }
 
 /* 414/736px correspond l'iphone 6/7/8 plus*/
-@media (min-width:414px) {
+@media (min-width:414px)and (max-width:567px) {
     .gallery {
         color:lime;
         width: 380px;
@@ -71,7 +71,7 @@
 }
 
 /* 320/568px correspond l'iphone 5*/
-@media (min-width:568px) {
+@media (min-width:568px) and (max-width:599px) {
     .gallery {
         color:yellow;
         width: 538px;
@@ -88,7 +88,7 @@
 }
 
 /* 600/960px correspond Nexus 7 Android 6.0.1*/
-@media (min-width:600px) {
+@media (min-width:600px) and (max-width:666px) {
     .gallery {
         color: brown;
         width: 560px;
@@ -96,7 +96,7 @@
 }
 
 /* 375/667px correspond l'iphone 6/7/8*/
-@media (min-width:667px) {
+@media (min-width:667px) and (max-width:730px) {
     .gallery {
         color: orangered;
       width: 610px;
@@ -111,7 +111,7 @@
 }
 
 /* 411/731px correspond au Pixel Android 8.0*/
-@media (min-width: 731px) {
+@media (min-width: 731px) and (max-width:735px) {
     .gallery {
       color: blue;
       width: 700px;
@@ -126,7 +126,7 @@
 }
 
 /* 414/736px correspond l'iphone 6/7/8 plus*/
-@media (min-width: 736px) {
+@media (min-width: 736px) and (max-width:799px) {
     .gallery {
       color: lime;
       margin: 20px auto 0px;
@@ -137,7 +137,7 @@
 }
 
 /*800/1280px correspond à la Kindle Fire HDX Linux*/
-@media (min-width:800px) {
+@media (min-width:800px) and (max-width:895px) {
     .gallery {
         color: purple;
         margin: 20px auto 0px;
@@ -172,7 +172,7 @@
 }
 
 /* 414/896px correspond à l'iphone XS Max iOS 12*/
-@media (min-width: 896px) {
+@media (min-width: 896px) and (max-width: 959px) {
     .gallery {
         color: red;
         margin: 20px auto 0px;
@@ -207,31 +207,65 @@
 }
 
 /* 600/960px correspond Nexus 7 Android 6.0.1*/
-@media (min-width:960px) {
+@media (min-width:960px) and (max-width:1023) {
     .gallery {
         color: brown;
         width: 900px;
     }
     
 }
-
-/*800/1280px correspond à la Kindle Fire HDX Linux*/
-@media (min-width:1280px) {
+@media (min-width: 1024px) and (max-width: 1159px) {
     .gallery {
-        color: purple;
-        width: 1200px;
+        color: black;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: flex-start;
+        margin: 1.5em auto 0px auto;
+        padding: 20px 10px;
+        width: 1000px;
+        height: 100%;
+        background-color: rgb(84, 84, 112);
     }
+      
     .thumb {
-      color:lightgrey;
-      width: 550px;
-      height: 305px;
+      color: Black;
+      opacity: 1;
+      margin-bottom: 18px;
+      overflow: hidden;
+      position: relative;
+      width: 371px;
+      height: 209px;
     }
-
+    .thumb:nth-child(n+5) {
+      margin-bottom: 83px;
+    }
+    .thumb .yt-video {
+      position: absolute;
+      left: 0;
+      width: 1000px;
+      height: 1181px;
+      margin-top: -33%;
+      margin-right: -20px;
+    }
     .thumb:first-child {
-        width: 550px;
-        height: 305px;
-    }  
-    .thumb:nth-child(n+2):nth-child(-n+4) .yt-video {
-        bottom: -200%;
+      width: 100%;
+      height: 464px;
     }
+    .thumb:nth-child(n+2):nth-child(-n+4) .yt-video {
+      bottom: -203%;
+    }
+    .thumb:nth-child(n+5) .yt-video {
+      bottom: -148%;
+    }
+    .thumb:nth-child(3n) .yt-video {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .thumb:nth-child(4) .yt-video, .thumb:last-child .yt-video {
+      left: auto;
+      right: 0;
+    }
+    
 }
+
