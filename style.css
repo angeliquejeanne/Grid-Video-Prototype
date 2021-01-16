@@ -1,0 +1,67 @@
+* {
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+      width: 100%;
+      max-height: 70vh;
+      margin: 0px;
+      padding: 0px;
+      background-color: black;
+  }
+  
+  .gallery, .thumb {
+    outline: 3px solid;
+  }
+  
+  .gallery {
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    margin: 1.5em auto 0px auto;
+    width: 1160px;
+    height: 1181px;
+    background-color: rgb(84, 84, 112);
+  }
+  
+  .thumb {
+    color: Black;
+    opacity: 1;
+    margin-bottom: 18px;
+    overflow: hidden;
+    position: relative;
+    width: 371px;
+    height: 209px;
+  }
+  .thumb:nth-child(n+5) {
+    margin-bottom: 83px;
+  }
+  .thumb .yt-video {
+    position: absolute;
+    left: 0;
+    width: 1160px;
+    height: 1181px;
+    margin-top: -23%;
+  }
+  .thumb:first-child {
+    width: 100%;
+    height: 464px;
+  }
+  .thumb:nth-child(n+2):nth-child(-n+4) .yt-video {
+    bottom: -203%;
+  }
+  .thumb:nth-child(n+5) .yt-video {
+    bottom: -127%;
+  }
+  .thumb:nth-child(3n) .yt-video {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .thumb:nth-child(4) .yt-video, .thumb:last-child .yt-video {
+    left: auto;
+    right: 0;
+  }
