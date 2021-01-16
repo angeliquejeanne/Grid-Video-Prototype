@@ -32,7 +32,7 @@
     }
 }
 
-@media (orientation: landscape) and (min-width:568px) {
+@media (min-width:568px) {
     .gallery {
         color:red;
         margin: 20px auto 0px;
