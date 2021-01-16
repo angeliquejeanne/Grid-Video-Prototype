@@ -1,6 +1,7 @@
-@media (min-width:320px) {
+/* 320/568px correspond l'iphone 5*/
+@media (min-width:320px) { 
     .gallery {
-        color:snow;
+        color:yellow;
         margin: 20px auto 0px;
         padding-top: 20px;
         width: 300px;
@@ -32,9 +33,21 @@
     }
 }
 
+/* 360/740px correspond Galaxy S9/S9+ Android 7.0*/
+@media (min-width:360px) {
+    .gallery {
+        color: blue;
+        margin: 20px auto 0px;
+        padding-top: 20px;
+        width: 320px;
+        height: 100%;
+    } 
+}
+
+/* 375/667px correspond l'iphone 6/7/8*/
 @media (min-width:375px) {
     .gallery {
-        color: burlywood;
+        color: orangered;
         width: 360px;
     }
     .thumb {
@@ -49,9 +62,18 @@
     }  
 }
 
+/* 414/736px correspond l'iphone 6/7/8 plus*/
+@media (min-width:414px) {
+    .gallery {
+        color:lime;
+        width: 380px;
+    } 
+}
+
+/* 320/568px correspond l'iphone 5*/
 @media (min-width:568px) {
     .gallery {
-        color:red;
+        color:yellow;
         width: 538px;
     }
     .thumb {
@@ -65,9 +87,18 @@
     }  
 }
 
+/* 600/960px correspond Nexus 7 Android 6.0.1*/
+@media (min-width:600px) {
+    .gallery {
+        color: brown;
+        width: 560px;
+    } 
+}
+
+/* 375/667px correspond l'iphone 6/7/8*/
 @media (min-width:667px) {
     .gallery {
-      color: cyan;
+        color: orangered;
       width: 610px;
   }
   .thumb {
@@ -79,7 +110,23 @@
   } 
 }
 
-@media (orientation: landscape) and (min-width: 736px) {
+/* 411/731px correspond au Pixel Android 8.0*/
+@media (min-width: 731px) {
+    .gallery {
+      color: blue;
+      width: 700px;
+    }
+    .thumb {
+        color: lightgrey;
+        width: 320px;
+    }
+    .thumb:first-child {
+        width: 320px;
+    }
+}
+
+/* 414/736px correspond l'iphone 6/7/8 plus*/
+@media (min-width: 736px) {
     .gallery {
       color: lime;
       margin: 20px auto 0px;
@@ -89,9 +136,45 @@
   }
 }
 
-@media (orientation: landscape) and (min-width: 896px) {
+/*800/1280px correspond à la Kindle Fire HDX Linux*/
+@media (min-width:800px) {
     .gallery {
-        color: pink;
+        color: purple;
+        margin: 20px auto 0px;
+        padding-top: 20px;
+        width: 770px;
+        height: 100%;
+    }
+    .thumb {
+      color: ligthgrey;
+      opacity: 1;
+      overflow: hidden;
+      position: relative;
+      width: 350px;
+      height: 205px;
+      margin: 0px auto 108px auto;
+    }
+    .thumb .yt-video {
+        position: absolute;
+        left: 0;
+        width: 1160px;
+        height: 1181px;
+        margin-top: -88%;
+    }
+    .thumb:first-child {
+        width: 350px;
+        height: 205px;
+        margin: 0 auto 108px;
+    }  
+    .thumb:nth-child(n+5) .yt-video {
+        bottom: -129%;
+    }
+}
+
+/* 414/896px correspond à l'iphone XS Max iOS 12*/
+@media (min-width: 896px) {
+    .gallery {
+        color: red;
         margin: 20px auto 0px;
         padding-top: 20px;
         width: 850px;
@@ -120,5 +203,35 @@
     }  
     .thumb:nth-child(n+5) .yt-video {
         bottom: -129%;
+    }
+}
+
+/* 600/960px correspond Nexus 7 Android 6.0.1*/
+@media (min-width:960px) {
+    .gallery {
+        color: brown;
+        width: 900px;
+    }
+    
+}
+
+/*800/1280px correspond à la Kindle Fire HDX Linux*/
+@media (min-width:1280px) {
+    .gallery {
+        color: purple;
+        width: 1200px;
+    }
+    .thumb {
+      color:lightgrey;
+      width: 550px;
+      height: 305px;
+    }
+
+    .thumb:first-child {
+        width: 550px;
+        height: 305px;
+    }  
+    .thumb:nth-child(n+2):nth-child(-n+4) .yt-video {
+        bottom: -200%;
     }
 }
