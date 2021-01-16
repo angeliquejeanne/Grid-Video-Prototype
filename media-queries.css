@@ -16,6 +16,7 @@
       height: 205px;
       margin: 0px auto 108px auto;
     }
+    
     .thumb .yt-video {
         position: absolute;
         left: 0;
@@ -48,109 +49,17 @@
 @media (min-width:375px) and (max-width: 413px) {
     .gallery {
         color: orangered;
-        width: 360px;
-    }
-    .thumb {
-      color: lightgrey;
-      width: 340px;
-    }
-    .thumb .yt-video {
-        margin-top: -88%;
-    }
-    .thumb:first-child {
-        width: 340px;
-    }  
-}
-
-/* 414/736px correspond l'iphone 6/7/8 plus*/
-@media (min-width:414px)and (max-width:567px) {
-    .gallery {
-        color:lime;
-        width: 380px;
-    } 
-}
-
-/* 320/568px correspond l'iphone 5*/
-@media (min-width:568px) and (max-width:599px) {
-    .gallery {
-        color:yellow;
-        width: 538px;
-    }
-    .thumb {
-      width: 500px;
-    }
-    .thumb .yt-video {
-        margin-top: -95%;
-    }
-    .thumb:first-child {
-        width: 500px;
-    }  
-}
-
-/* 600/960px correspond Nexus 7 Android 6.0.1*/
-@media (min-width:600px) and (max-width:666px) {
-    .gallery {
-        color: brown;
-        width: 560px;
-    } 
-}
-
-/* 375/667px correspond l'iphone 6/7/8*/
-@media (min-width:667px) and (max-width:730px) {
-    .gallery {
-        color: orangered;
-      width: 610px;
-  }
-  .thumb {
-    color: lightgrey;
-    width: 280px;
-  }
-  .thumb:first-child {
-      width: 280px;
-  } 
-}
-
-/* 411/731px correspond au Pixel Android 8.0*/
-@media (min-width: 731px) and (max-width:735px) {
-    .gallery {
-      color: blue;
-      width: 700px;
-    }
-    .thumb {
-        color: lightgrey;
-        width: 320px;
-    }
-    .thumb:first-child {
-        width: 320px;
-    }
-}
-
-/* 414/736px correspond l'iphone 6/7/8 plus*/
-@media (min-width: 736px) and (max-width:799px) {
-    .gallery {
-      color: lime;
-      margin: 20px auto 0px;
-      padding-top: 20px;
-      width: 700px;
-      height: 100%;
-  }
-}
-
-/*800/1280px correspond à la Kindle Fire HDX Linux*/
-@media (min-width:800px) and (max-width:895px) {
-    .gallery {
-        color: purple;
         margin: 20px auto 0px;
         padding-top: 20px;
-        width: 770px;
+        width: 340px;
         height: 100%;
     }
     .thumb {
-      color: ligthgrey;
+      color: lightgrey;
       opacity: 1;
       overflow: hidden;
       position: relative;
-      width: 350px;
+      width: 320px;
       height: 205px;
       margin: 0px auto 108px auto;
     }
@@ -159,16 +68,298 @@
         left: 0;
         width: 1160px;
         height: 1181px;
-        margin-top: -88%;
+        margin-top: -95%;
     }
     .thumb:first-child {
-        width: 350px;
+        width: 320px;
         height: 205px;
         margin: 0 auto 108px;
     }  
     .thumb:nth-child(n+5) .yt-video {
         bottom: -129%;
     }
+}
+
+/* 414/736px correspond l'iphone 6/7/8 plus*/
+@media (min-width:414px)and (max-width:567px) {
+    .gallery {
+        color:lime;
+        margin: 20px auto 0px;
+        padding-top: 20px;
+        width: 380px;
+        height: 100%;
+    }
+    .thumb {
+      color: lightgrey;
+      opacity: 1;
+      overflow: hidden;
+      position: relative;
+      width: 340px;
+      height: 205px;
+      margin: 0px auto 108px auto;
+    }
+
+    .thumb .yt-video {
+        position: absolute;
+        left: 0;
+        width: 1160px;
+        height: 1181px;
+        margin-top: -95%;
+    }
+    .thumb:first-child {
+        width: 340px;
+        height: 205px;
+        margin: 0 auto 108px;
+    }  
+    .thumb:nth-child(n+5) .yt-video {
+        bottom: -129%;
+    }
+}
+
+/* 320/568px correspond l'iphone 5*/
+@media (min-width:568px) and (max-width:599px) {
+    .gallery {
+        color:yellow;
+        margin: 20px auto 0px;
+        padding-top: 20px;
+        width: 530px;
+        height: 100%;
+    }
+    .thumb {
+      color: lightgrey;
+      opacity: 1;
+      overflow: hidden;
+      position: relative;
+      width: 490px;
+      height: 205px;
+      margin: 0px auto 108px auto;
+    }
+    .thumb .yt-video {
+        position: absolute;
+        left: 0;
+        width: 1160px;
+        height: 1181px;
+        margin-top: -95%;
+    }
+    .thumb:first-child {
+        width: 490px;
+        height: 205px;
+        margin: 0 auto 108px;
+    }  
+    .thumb:nth-child(n+5) .yt-video {
+        bottom: -129%;
+    }
+}
+
+/* 600/960px correspond Nexus 7 Android 6.0.1*/
+@media (min-width:600px) and (max-width:666px) {
+    .gallery {
+        color: brown;
+        margin: 20px auto 0px;
+        padding-top: 20px;
+        width: 560px;
+        height: 100%;
+    }
+    .thumb {
+      color: lightgrey;
+      opacity: 1;
+      overflow: hidden;
+      position: relative;
+      width: 510px;
+      height: 205px;
+      margin: 0px auto 108px auto;
+    }
+    .thumb .yt-video {
+        position: absolute;
+        left: 0;
+        width: 1160px;
+        height: 1181px;
+        margin-top: -95%;
+    }
+    .thumb:first-child {
+        width: 510px;
+        height: 205px;
+        margin: 0 auto 108px;
+    }  
+    .thumb:nth-child(n+5) .yt-video {
+        bottom: -129%;
+    }
+}
+
+/* 375/667px correspond l'iphone 6/7/8*/
+@media (min-width:667px) and (max-width:730px) {
+    .gallery {
+      color: orangered;
+      margin: 20px auto 0px;
+      padding-top: 20px;
+      width: 610px;
+      height: 100%;
+    }
+    .thumb {
+      color: lightgrey;
+      opacity: 1;
+      overflow: hidden;
+      position: relative;
+      width: 280px;
+      height: 205px;
+      margin: 0px auto 108px auto;
+    }
+    .thumb .yt-video {
+        position: absolute;
+        left: 0;
+        width: 1160px;
+        height: 1181px;
+        margin-top: -95%;
+    }
+    .thumb:first-child {
+        width: 280px;
+        height: 205px;
+        margin: 0 auto 108px;
+    }  
+    .thumb:nth-child(n+5) .yt-video {
+        bottom: -129%;
+    }
+}
+
+/* 411/731px correspond au Pixel Android 8.0*/
+@media (min-width: 731px) and (max-width:735px) {
+    .gallery {
+      color: blue;
+      width: 700px;
+      margin: 20px auto 0px;
+      padding-top: 20px;
+      height: 100%;
+    }
+    .thumb {
+      color: lightgrey;
+      opacity: 1;
+      overflow: hidden;
+      position: relative;
+      width: 320px;
+      height: 205px;
+      margin: 0px auto 108px auto;
+    }
+    .thumb .yt-video {
+        position: absolute;
+        left: 0;
+        width: 1160px;
+        height: 1181px;
+        margin-top: -95%;
+    }
+    .thumb:first-child {
+        width: 320px;
+        height: 205px;
+        margin: 0 auto 108px;
+    }  
+    .thumb:nth-child(n+5) .yt-video {
+        bottom: -129%;
+    }
+}
+
+/* 414/736px correspond l'iphone 6/7/8 plus*/
+@media (min-width: 736px) and (max-width:767px) {
+    .gallery {
+      color: lime;
+      margin: 20px auto 0px;
+      padding-top: 20px;
+      width: 700px;
+      height: 100%;
+    }
+    .thumb {
+      color: lightgrey;
+      opacity: 1;
+      overflow: hidden;
+      position: relative;
+      width: 320px;
+      height: 205px;
+      margin: 0px auto 108px auto;
+    }
+    .thumb .yt-video {
+        position: absolute;
+        left: 0;
+        width: 1160px;
+        height: 1181px;
+        margin-top: -95%;
+    }
+    .thumb:first-child {
+        width: 320px;
+        height: 205px;
+        margin: 0 auto 108px;
+    }  
+    .thumb:nth-child(n+5) .yt-video {
+        bottom: -129%;
+    }
+}
+
+@media (min-width:768px) and (max-width:799px) {
+    .gallery {
+        color: darkolivegreen;
+        margin: 20px auto 0px;
+        padding-top: 20px;
+        width: 740px;
+        height: 100%;
+      }
+      .thumb {
+        color: lightgrey;
+        opacity: 1;
+        overflow: hidden;
+        position: relative;
+        width: 350px;
+        height: 205px;
+        margin: 0px auto 108px auto;
+      }
+      .thumb:nth-child(n+5) {
+        margin-bottom: 20px;
+      }
+      .thumb .yt-video {
+          position: absolute;
+          left: 0;
+          width: 1160px;
+          height: 1181px;
+          margin-top: -80%;
+      }
+      .thumb:first-child {
+          width: 700px;
+          height: 305px;
+          margin: 0 auto 108px;
+      }  
+      .thumb:nth-child(n+5) .yt-video {
+          bottom: -129%;
+      }
+}    
+/*800/1280px correspond à la Kindle Fire HDX Linux*/
+@media (min-width:800px) and (max-width:895px) {
+    .gallery {
+        color: purple;
+        margin: 20px auto 0px;
+        padding-top: 20px;
+        width: 770px;
+        height: 100%;
+      }
+      .thumb {
+        color: lightgrey;
+        opacity: 1;
+        overflow: hidden;
+        position: relative;
+        width: 350px;
+        height: 205px;
+        margin: 0px auto 108px auto;
+      }
+      .thumb .yt-video {
+          position: absolute;
+          left: 0;
+          width: 1160px;
+          height: 1181px;
+          margin-top: -80%;
+      }
+      .thumb:first-child {
+          width: 740px;
+          height: 305px;
+          margin: 0 auto 108px;
+      }  
+      .thumb:nth-child(n+5) .yt-video {
+          bottom: -129%;
+      }
 }
 
 /* 414/896px correspond à l'iphone XS Max iOS 12*/
@@ -189,16 +380,19 @@
       height: 205px;
       margin: 0px auto 108px auto;
     }
+    .thumb:nth-child(n+5) {
+        margin-bottom: 20px;
+    }
     .thumb .yt-video {
         position: absolute;
         left: 0;
         width: 1160px;
         height: 1181px;
-        margin-top: -88%;
+        margin-top: -58%;
     }
     .thumb:first-child {
-        width: 400px;
-        height: 205px;
+        width: 6000px;
+        height: 405px;
         margin: 0 auto 108px;
     }  
     .thumb:nth-child(n+5) .yt-video {
@@ -207,16 +401,43 @@
 }
 
 /* 600/960px correspond Nexus 7 Android 6.0.1*/
-@media (min-width:960px) and (max-width:1023) {
+@media (min-width:960px) and (max-width:1023px) {
     .gallery {
-        color: brown;
+        color: violet;
+        margin: 20px auto 0px;
+        padding-top: 20px;
         width: 900px;
+        height: 100%;
     }
-    
+    .thumb {
+      color: lightgrey;
+      opacity: 1;
+      overflow: hidden;
+      position: relative;
+      width: 400px;
+      height: 205px;
+      margin: 0px auto 108px auto;
+    }
+    .thumb .yt-video {
+        position: absolute;
+        left: 0;
+        width: 1160px;
+        height: 1181px;
+        margin-top: -58%;
+    }
+    .thumb:first-child {
+        width: 850px;
+        height: 350px;
+        margin: 0 auto 108px;
+    }  
+    .thumb:nth-child(n+5) .yt-video {
+        bottom: -129%;
+    }   
 }
+
 @media (min-width: 1024px) and (max-width: 1159px) {
     .gallery {
-        color: black;
+        color: darksalmon;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -234,11 +455,11 @@
       margin-bottom: 18px;
       overflow: hidden;
       position: relative;
-      width: 371px;
+      width: 470px;
       height: 209px;
     }
     .thumb:nth-child(n+5) {
-      margin-bottom: 83px;
+      margin-bottom: 20px;
     }
     .thumb .yt-video {
       position: absolute;
@@ -269,3 +490,37 @@
     
 }
 
+@media (min-width: 1440px) {
+    .gallery {
+        color:darkkhaki;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: flex-start;
+        margin: 1.5em auto 0px auto;
+        padding: 20px 10px;
+        width: 1400px;
+        height: 100%;
+        background-color: rgb(84, 84, 112);
+    }
+    .thumb {
+        color: Black;
+        opacity: 1;
+        margin-bottom: 18px;
+        overflow: hidden;
+        position: relative;
+        width: 650px;
+        height: 209px;
+      }
+    .thumb .yt-video {
+        position: absolute;
+        left: 0;
+        width: 1400px;
+        height: 1181px;
+        margin-top: -23%;
+      }
+      .thumb:first-child {
+        width: 100%;
+        height: 600px;
+      }
+}
