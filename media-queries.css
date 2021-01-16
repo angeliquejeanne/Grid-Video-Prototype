@@ -31,4 +31,38 @@
         bottom: -129%;
     }
 }
-  
+
+@media (orientation: landscape) and (min-width:568px) {
+    .gallery {
+        color:red;
+        margin: 20px auto 0px;
+        padding-top: 20px;
+        width: 538px;
+        height: 100%;
+    }
+    .thumb {
+      color: lightgrey;
+      opacity: 1;
+      overflow: hidden;
+      position: relative;
+      width: 500px;
+      height: 205px;
+      margin: 0px auto 108px auto;
+    }
+    .thumb .yt-video {
+        position: absolute;
+        left: 0;
+        width: 1160px;
+        height: 1181px;
+        margin-top: -95%;
+    }
+    .thumb:first-child {
+        width: 500px;
+        height: 205px;
+        margin: 0 auto 108px;
+    }  
+    .thumb:nth-child(n+5) .yt-video {
+        bottom: -129%;
+    }
+}
+
