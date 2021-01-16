@@ -79,7 +79,7 @@
   } 
 }
 
-@media (orientation: landscape) and (min-width: 736px) {
+@media (min-width: 736px) {
     .gallery {
       color: lime;
       margin: 20px auto 0px;
