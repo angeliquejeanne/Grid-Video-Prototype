@@ -7,7 +7,7 @@
         height: 100%;
     }
     .thumb {
-      color: grey;
+      color: lightgrey;
       opacity: 1;
       overflow: hidden;
       position: relative;
@@ -31,4 +31,51 @@
         bottom: -129%;
     }
 }
-  
+
+@media (min-width:375px) {
+    .gallery {
+        color: burlywood;
+        width: 360px;
+    }
+    .thumb {
+      color: lightgrey;
+      width: 340px;
+    }
+    .thumb .yt-video {
+        margin-top: -88%;
+    }
+    .thumb:first-child {
+        width: 340px;
+    }  
+}
+
+@media (min-width:568px) {
+    .gallery {
+        color:red;
+        width: 538px;
+    }
+    .thumb {
+      width: 500px;
+    }
+    .thumb .yt-video {
+        margin-top: -95%;
+    }
+    .thumb:first-child {
+        width: 500px;
+    }  
+}
+
+@media (min-width:667px) {
+    .gallery {
+      color: cyan;
+      width: 610px;
+  }
+  .thumb {
+    color: lightgrey;
+    width: 280px;
+  }
+  .thumb:first-child {
+      width: 280px;
+  } 
+}
+
