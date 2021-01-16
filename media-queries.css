@@ -34,7 +34,7 @@
 
 @media (min-width:375px) {
     .gallery {
-        color: burlywood;
+        color: lightgrey;
         width: 360px;
     }
     .thumb {
